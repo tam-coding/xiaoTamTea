@@ -1,0 +1,15 @@
+<!--pages/news/news.wxml-->
+<my-header></my-header>
+<view class="news">
+  <view class="content">
+    <view class="box" wx:for="{{newsData}}" wx:key="_id">
+      <my-news-item item="{{item}}" author="{{item.author}}"></my-news-item>
+    </view>
+  </view>
+  <view class="loadout">
+    <van-loading size="24px" wx:if="{{loading}}">加载中...</van-loading>
+    <view class="noData" wx:if="{{isFull}}">
+    没有更多数据了~
+    </view>
+  </view>
+</view>

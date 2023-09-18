@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/search/search",
+    "pages/news/news",
+    "pages/newsDetail/newsDetail",
+    "components/my-product-item/my-product-item",
+    "pages/productDetail/productDetail"
+  ],
+  "tabBar": {
+    "color": "#4c4d4e",
+    "selectedColor": "#BDA066",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-fill.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "分类",
+        "iconPath": "images/all.png",
+        "selectedIconPath": "images/all-fill.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "咨询",
+        "iconPath": "images/news.png",
+        "selectedIconPath": "images/news-fill.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "小谭茶道文化馆",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "my-header": "components/my-header/my-header",
+    "my-footer": "components/my-footer/my-footer",
+    "my-product-item": "components/my-product-item/my-product-item",
+    "my-news-item": "components/my-news-item/my-news-item",
+    "van-button": "@vant/weapp/button/index",
+    "van-icon": "@vant/weapp/icon/index",
+    "van-loading": "@vant/weapp/loading/index",
+    "van-skeleton": "@vant/weapp/skeleton/index",
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index"
+  }
+}

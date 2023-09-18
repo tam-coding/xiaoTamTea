@@ -1,0 +1,12 @@
+<!--components/my-footer/my-footer.wxml-->
+<view class="footer">
+  <view class="row">Copyright  {{year}} 版权所有</view>
+  <view class="row">解释权归小谭所有</view>
+  <view class="row">湖北省武汉市南里路二十二号</view>
+</view>
+
+<view class="kefu">
+  <button class="btn" open-type="contact">1</button>
+  <image src="/images/kefu.png" mode="aspectFill" class="pic"/>
+  <view class="line"></view>
+</view>

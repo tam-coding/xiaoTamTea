@@ -1,0 +1,9 @@
+<!--components/my-header/my-header.wxml-->
+<view class="header1">
+  <navigator url="/pages/index/index" class="logo" open-type="switchTab">
+  <image src="/images/logo.jpg" class="pic" mode="heightFix"/>
+  </navigator>
+  <navigator class="search" url="/pages/search/search">
+   <icon type="search" color="var(--themeColor)"/>
+  </navigator>
+</view>

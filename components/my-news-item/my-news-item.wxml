@@ -1,0 +1,25 @@
+<!--components/my-news-item.wxml-->
+<navigator class="newsItem" url="/pages/newsDetail/newsDetail?id={{item._id}}" open-type="navigate">
+  <view class="pic">
+    <image src="{{item.picurl}}" mode="aspectFill" class="img"/>
+  </view>
+  <view class="text">
+    <view class="title">
+     {{item.title}}
+    </view>
+    <view class="info">
+      <view class="block">
+        <van-icon name="clock-o" size="14"/>
+        {{item.publish_date}}
+      </view>
+      <view class="block">
+        <van-icon name="eye-o" size="14"/>
+        {{item.view_count}}
+      </view>
+      <view class="block">
+        <van-icon name="user-o" size="14"/>
+        {{author}}
+      </view>
+    </view>
+  </view>
+</navigator>
